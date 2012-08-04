@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for mb525.
-$(call inherit-product, device/moto/mb525/full_mb525.mk)
+$(call inherit-product, device/moto/mb525/mb525.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/aokp/configs/common_phone.mk)
