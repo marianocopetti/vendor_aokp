@@ -1,3 +1,3 @@
-add_lunch_combo aokp_jordan_plus-userdebug
-add_lunch_combo aokp_mb525-userdebug
+add_lunch_combo aokp_defy_plus-userdebug
+add_lunch_combo aokp_defy-userdebug
 
