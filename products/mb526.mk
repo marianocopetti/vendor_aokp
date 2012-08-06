@@ -1,5 +1,5 @@
-# Inherit AOSP device configuration for defy.
-$(call inherit-product, device/moto/mb525/defy.mk)
+# Inherit AOSP device configuration for mb526.
+$(call inherit-product,  device/moto/mb526/mb526.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/aokp/configs/common_phone.mk)
@@ -7,13 +7,13 @@ $(call inherit-product, vendor/aokp/configs/common_phone.mk)
 # Inherit GSM common stuff
 $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/defy
+PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/mb526
 
 # Setup device specific product configuration.
-PRODUCT_NAME := aokp_defy
+PRODUCT_NAME := aokp_mb526
 PRODUCT_BRAND := MOTO
-PRODUCT_DEVICE := mb525
-PRODUCT_MODEL := MB525
+PRODUCT_DEVICE := mb526
+PRODUCT_MODEL := MB526
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_SFX := DFP
 
@@ -28,4 +28,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/bootanimation/bootanimation_480_854.zip:system/media/bootanimation.zip
-

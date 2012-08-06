@@ -1,3 +1,3 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/defy.mk \
-    $(LOCAL_DIR)/defy_plus.mk \
+    $(LOCAL_DIR)/mb525.mk \
+    $(LOCAL_DIR)/mb526.mk \
