@@ -34,3 +34,5 @@
 		<item>@string/toggle_torch</item>
         	<item>@string/toggle_swagger</item>
 	</string-array>
+
+</resources>
