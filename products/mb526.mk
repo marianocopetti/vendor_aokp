@@ -30,5 +30,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_PACKAGES += \
     Mms
 
+# Apollo
+PRODUCT_PACKAGES += \
+    Apollo
+
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/bootanimation/bootanimation_480_854.zip:system/media/bootanimation.zip
