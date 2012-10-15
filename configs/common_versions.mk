@@ -6,7 +6,7 @@ DATE = $(shell vendor/aokp/tools/getdate)
 ifneq ($(AOKP_BUILD),)
 	# AOKP_BUILD=<goo version int>/<build string>
 	PRODUCT_PROPERTY_OVERRIDES += \
-	    ro.goo.developerid=aokp \
+	    ro.goo.developerid=Kayant \
 	    ro.goo.rom=aokp \
 	    ro.goo.version=$(shell echo $(AOKP_BUILD) | cut -d/ -f1) \
 		ro.aokp.version=$(TARGET_PRODUCT)_jb_$(shell echo $(AOKP_BUILD) | cut -d/ -f2)
