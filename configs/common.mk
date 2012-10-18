@@ -74,4 +74,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Inherit common build.prop overrides
--include vendor/aokp/configs/common_versions.mk
+include vendor/aokp/configs/common_versions.mk
