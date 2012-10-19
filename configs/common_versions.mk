@@ -6,8 +6,8 @@ DATE = $(shell vendor/aokp/tools/getdate)
 # AOKP_BUILD=<goo version int>/<build string>
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=Kayant \
+    ro.goo.board=$(TARGET_PRODUCT) \
     ro.goo.version=$(shell date +%m%d%Y) \
-    ro.goo.board=$(TARGET_PRODUCT)
     ro.aokp.version=$(TARGET_PRODUCT)_unofficial_$(DATE)
 
 # Camera shutter sound property
