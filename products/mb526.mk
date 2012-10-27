@@ -34,5 +34,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Apollo
 
+# Camera
+PRODUCT_PACKAGES += \
+  Camera
+
+
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/bootanimation/bootanimation_480_854.zip:system/media/bootanimation.zip
