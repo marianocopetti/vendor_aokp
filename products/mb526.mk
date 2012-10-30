@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for full_jordan.
-$(call inherit-product,  device/moto/mb526/full_jordan.mk)
+$(call inherit-product, device/moto/mb526/full_jordan.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/aokp/configs/common_phone.mk)
