@@ -9,6 +9,10 @@ $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/mb526
 
+# FM
+PRODUCT_PACKAGES += \
+  FMRadioService
+
 # Mms
 PRODUCT_PACKAGES += \
     Mms
